@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(373,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  sudoku.cpp
+d:\软件工程实践\第二次作业\sudokuproject\sudokuproject\sudoku.cpp(54): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  SudokuProject.vcxproj -> D:\软件工程实践\第二次作业\SudokuProject\SudokuProject\..\BIN\SudokuProject.exe
+  SudokuProject.vcxproj -> ..\BIN\SudokuProject.pdb (Partial PDB)
