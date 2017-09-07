@@ -48,7 +48,7 @@ bool sudoku(int i, int j)
 	return false;//某一个点不符合条件就回溯 
 }
 
-int main()
+int main(int argc,char **argv)//main函数参数 
 {
 	ofstream fout("sudoku.txt", ios_base::trunc);//以文件形式输出，并且方式为覆盖 
 	srand(time(0));//设置随机数种子 
@@ -57,7 +57,7 @@ int main()
 	int k;
 	int i, j, temp;
 	int n = 0, m;
-	cin >> str;
+	str = argv[2]; 
 	len = str.length();
 	for (k = 0; k < len; k++)
 	{
