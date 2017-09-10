@@ -27,7 +27,7 @@ bool judge(int i,int j,int number)
 
 bool sudoku(int i,int j)
 {
-	if(i>8) 
+	if(i=9) 
 		return true;
 	int no=rand()%9;
 	int m;
